@@ -1,0 +1,328 @@
+.logement {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  margin-top:32px;
+  background: #F7F7F7;
+  border-radius: 25px;
+}
+
+.carte-logement {
+  position: relative;
+  height: 340px;
+  width: 340px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 15px;
+}
+
+.carte-logement h2 {
+  position: absolute;
+  left: 5.88%;
+  right: 5.88%;
+  top: 78.82%;
+  bottom: 5.88%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  /* or 26px */
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #FFFFFF;
+}
+
+.carte-logement img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.carte-logement title {
+  left: 5.88%;
+  right: 5.88%;
+  top: 78.82%;
+  bottom: 5.88%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  /* or 26px */
+
+  display: flex;
+  align-items: flex-start;
+
+  color: #FFFFFF;
+}
+
+main {
+  margin:5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+header {
+  margin-inline: 5%;
+  margin-block: 1%;
+  height: 68px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  left: 100px;
+  top: 40px;
+}
+
+header .LOGO {
+  position: absolute;
+  font-family: 'Arial';
+  color:#FF6060;
+  font-weight: 520;
+  font-size: 48px;
+  height: 68px;
+  margin: 0px;
+  width: 210px;
+  left: 5.5%;
+  top: 2.5%;
+  justify-content: left;
+  align-items: flex-end;
+}
+
+header nav {
+  position: absolute;
+  left: 71.5%;
+  right: 0%;
+  top: 25%;
+  bottom: 25%;
+  height: 34px;
+  width: 25%;
+  top: 17px;
+}
+
+nav ul {
+display: flex;
+justify-content: space-around;
+}
+
+nav li {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+  /* or 34px */
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  color: #FF6060;
+}
+
+nav li:hover{
+  text-decoration-line: underline;
+}
+
+.Accueil {
+  left: 75.08%;
+  right: 13.95%;
+  top: 25%;
+  bottom: 25%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+  /* or 34px */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  color: #FF6060;
+}
+
+.A-propos {
+  left: 90.65%;
+  right: 0%;
+  top: 25%;
+  bottom: 25%;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;
+  /* or 34px */
+
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+
+  color: #FF6060;
+}
+
+
+.Section1 {
+  height: 223px;
+  margin-inline: 5%;
+  margin-bottom: 10px;
+  top: 171px;
+  border-radius: 25px;
+  background: linear-gradient(#F7F7F7, (#000000, 0.5));
+}
+
+.Section1 img {
+  height: 223px;
+  width:100%;
+  border-radius: 25px;
+  mix-blend-mode: darken;
+  opacity: 0.7;
+  overflow: hidden;
+  display:block;
+}
+
+h1 {
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  left: 20.5%;
+  width: 60%;
+  height: 70px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  opacity: 1;  
+  color: #FFFFFF;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 209px;
+  margin-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  text-align: center;
+  justify-content: space-around;
+  background: #000000;
+  color: #FFFFFF;
+}
+
+footer .LOGO{
+  position: absolute;
+  top: 31%;
+}
+
+footer p {
+  position: absolute;
+  left: 32.15%;
+  right: 32.22%;
+  top: 64%;
+  bottom: 13.88%;
+  height: 46px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 142.6%;  /* or 34px */
+}
+.Fiche body{
+  position: absolute;
+  width: 1240px;
+  height: 643px;
+  left: 100px;
+  top: 128px;
+}
+.Fiche .Section1 img{
+  width: 100%;
+  height: 415px;
+  display: flex;
+  justify-content: center;
+}
+
+.Fiche .Titre{
+  position: absolute;
+width: 635px;
+height: 77px;
+left: 100px;
+top: 573px;
+}
+.Fiche h1{
+  position: absolute;
+  left: 6.94%;
+  right: 48.96%;
+  top: 55.96%;
+  bottom: 39.06%;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 142.6%;
+  /* or 51px */
+  
+  display: flex;
+  align-items: flex-end;
+  
+  color: #FF6060;
+}
+
+.Fiche .Localisation{
+  position: absolute;
+left: 6.94%;
+right: 80.83%;
+top: 60.94%;
+bottom: 36.52%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 142.6%;/* identical to box height, or 26px */
+display: flex;
+align-items: flex-end;
+color: #FF6060;
+} 
+
+.Fiche h3{
+position: absolute;
+width: 93px;
+height: 52px;
+left: 1170px;
+top: 573px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 142.6%;
+/* or 26px */
+
+display: flex;
+align-items: flex-end;
+text-align: right;
+
+color: #FF6060;
+}
+
+.Fiche .Hôte img{
+position: absolute;
+width: 64px;
+height: 64px;
+left: 1273px;
+top: 567px;
+}
+
+
+
