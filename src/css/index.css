@@ -1,3 +1,6 @@
+*{
+  font-family: 'Montserrat';
+}
 .logement {
   left: 0%;
   right: 0%;
@@ -24,8 +27,6 @@
   right: 5.88%;
   top: 78.82%;
   bottom: 5.88%;
-
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -49,8 +50,6 @@
   right: 5.88%;
   top: 78.82%;
   bottom: 5.88%;
-
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -83,7 +82,6 @@ header {
 
 header .LOGO {
   position: absolute;
-  font-family: 'Arial';
   color:#FF6060;
   font-weight: 520;
   font-size: 48px;
@@ -113,12 +111,10 @@ justify-content: space-around;
 }
 
 nav li {
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 142.6%;
-  /* or 34px */
+  line-height: 142.6%;   /* or 34px */
   display: flex;
   align-items: flex-end;
   text-align: right;
@@ -134,8 +130,6 @@ nav li:hover{
   right: 13.95%;
   top: 25%;
   bottom: 25%;
-
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -153,18 +147,13 @@ nav li:hover{
   right: 0%;
   top: 25%;
   bottom: 25%;
-
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 142.6%;
-  /* or 34px */
-
+  line-height: 142.6%;  /* or 34px */
   display: flex;
   align-items: flex-end;
   text-align: right;
-
   color: #FF6060;
 }
 
@@ -198,7 +187,6 @@ h1 {
   margin-block-start: 0px;
   margin-block-end: 0px;
   text-align: center;
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -232,7 +220,6 @@ footer p {
   top: 64%;
   bottom: 13.88%;
   height: 46px;
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -265,27 +252,21 @@ top: 573px;
   right: 48.96%;
   top: 55.96%;
   bottom: 39.06%;
-  
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
-  line-height: 142.6%;
-  /* or 51px */
-  
+  line-height: 142.6%;   /* or 51px */
   display: flex;
   align-items: flex-end;
-  
   color: #FF6060;
 }
 
 .Fiche .Localisation{
-  position: absolute;
+position: absolute;
 left: 6.94%;
 right: 80.83%;
 top: 60.94%;
 bottom: 36.52%;
-font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
@@ -301,18 +282,13 @@ width: 93px;
 height: 52px;
 left: 1170px;
 top: 573px;
-
-font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
-line-height: 142.6%;
-/* or 26px */
-
+line-height: 142.6%; /* or 26px */
 display: flex;
 align-items: flex-end;
 text-align: right;
-
 color: #FF6060;
 }
 
@@ -324,5 +300,14 @@ left: 1273px;
 top: 567px;
 }
 
-
+.Mots-clés{
+height: 25px;
+width: 115px;
+left: 0px;
+top: 0px;
+border-radius: 10px;
+background: #FF6060;
+color: #FFFFFF;
+border-radius: 10px;
+}
 
