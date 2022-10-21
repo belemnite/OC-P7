@@ -30,9 +30,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 142.6%;
-  /* or 26px */
-
+  line-height: 142.6%;   /* or 26px */
   display: flex;
   align-items: flex-end;
 
@@ -53,9 +51,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 142.6%;
-  /* or 26px */
-
+  line-height: 142.6%;   /* or 26px */
   display: flex;
   align-items: flex-start;
 
@@ -133,9 +129,7 @@ nav li:hover{
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 142.6%;
-  /* or 34px */
-
+  line-height: 142.6%;   /* or 34px */
   display: flex;
   align-items: flex-end;
   text-align: right;
@@ -228,7 +222,6 @@ footer p {
 .Fiche body{
   position: absolute;
   width: 1240px;
-  height: 643px;
   left: 100px;
   top: 128px;
 }
@@ -240,18 +233,17 @@ footer p {
 }
 
 .Fiche .Titre{
-  position: absolute;
 width: 635px;
-height: 77px;
+height: 51px;
 left: 100px;
 top: 573px;
 }
-.Fiche h1{
-  position: absolute;
+.Fiche .Titre h1{
   left: 6.94%;
   right: 48.96%;
   top: 55.96%;
   bottom: 39.06%;
+  height: 51px;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -261,8 +253,7 @@ top: 573px;
   color: #FF6060;
 }
 
-.Fiche .Localisation{
-position: absolute;
+.Fiche .Titre .Localisation{
 left: 6.94%;
 right: 80.83%;
 top: 60.94%;
@@ -275,19 +266,25 @@ display: flex;
 align-items: flex-end;
 color: #FF6060;
 } 
-
-.Fiche h3{
+/*.Fiche .Cercle-Hôte{
+  position: absolute;
+  border-radius: 32px;
+  left: 1273px;
+  top: 567px;
+  background: #C4C4C4;
+}*/
+.Fiche .Hôte h3{
 position: absolute;
 width: 93px;
 height: 52px;
 left: 1170px;
-top: 573px;
+top: 560px;
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 142.6%; /* or 26px */
 display: flex;
-align-items: flex-end;
+align-items: center;
 text-align: right;
 color: #FF6060;
 }
@@ -296,18 +293,94 @@ color: #FF6060;
 position: absolute;
 width: 64px;
 height: 64px;
+border-radius: 50%;
 left: 1273px;
 top: 567px;
 }
 
-.Mots-clés{
-height: 25px;
-width: 115px;
-left: 0px;
-top: 0px;
-border-radius: 10px;
-background: #FF6060;
-color: #FFFFFF;
-border-radius: 10px;
+.Fiche .Note{
+  height: 36px;
+width: 196px;
+left: 1144px;
+top: 652px;
+border-radius: 0px;
+
 }
 
+.Fiche .Contenu{
+position: relative;
+  width: 1240px;
+height: 101px;
+left: 100px;
+top: 670px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.Fiche .Contenu .Mots-clés{
+  height: 25px;
+  width: 100%;
+  left: 100px;
+  top: 670px;
+  
+  }
+  
+  .Fiche .Contenu .Mots-clés .Rectangle3{
+    height: 25px;
+    width: 115px;
+    background: #FF6060;
+    color: #FFFFFF;
+    border-radius: 10px;
+  }
+
+.Fiche .Contenu .Dropdown{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-inline: 5%;
+  left:17%;
+}
+
+.Dropdown .Rectangle4{
+display:flex;
+height: 47px;
+width: 100%;
+margin-inline: 0;
+margin-bottom: 0;
+font-weight: 500;
+font-size: 24px;
+background: #FF6060;
+color:#FFFFFF;
+border-radius: 5px;
+justify-content: space-between;
+align-items: center;
+padding-left: 18px;
+}
+button{
+  background-color: transparent;
+  border-style: none;
+}
+.Dropdown img{
+padding-right: 18px;
+}
+
+.Dropdown p{
+  margin-block: 0;
+  height: 184px;
+  padding-left: 18px;
+  padding-top: 38px;
+  border-radius: 5px;
+  line-height: 34px;
+  font-weight: 400;
+  font-size: 24px;
+  background: #F7F7F7;
+  color:#FF6060;
+
+}
+.Fiche .Dropdown{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 45%;
+}

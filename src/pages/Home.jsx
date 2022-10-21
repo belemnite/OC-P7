@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react'
 import Header from '../composants/Header';
 import Footer from '../composants/Footer';
