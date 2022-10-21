@@ -4,6 +4,7 @@ import flèche_arrière from '../assets/arrow_back_ios-24px 1.png';
 import flèche_avant from '../assets/arrow_forward_ios-24px 1.png';
 import flèche_haut from '../assets/flèche_haut.png';
 import Accordion from '../composants/Accordion';
+import Carrousel from '../composants/Carrousel';
 import Footer from '../composants/Footer';
 import Header from '../composants/Header';
 import logements from '../data/logements';
@@ -24,6 +25,7 @@ export default function Fiche() {
     <div className="Fiche">
         <Header/>
         <main>
+        <Carrousel cover={logementEnCours.cover} gallery={logementEnCours.pictures}/>
 {/*         <div className='Section1'>
             <img src={logementEnCours.pictures} alt="photos carrousel" />
             <div><img src={flèche_arrière} alt="flèche arrière" /><img src={logementEnCours.cover} alt="aperçu du logement" /><img src={flèche_avant} alt="flèche avant" /></div>
