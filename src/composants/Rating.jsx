@@ -5,6 +5,6 @@ import React from 'react'
 export default function Rating() {
   const [rating, setRating] = useState(0)
   return (
-    <div>Rating</div>
+    <div>{logement.rating}</div>
   )
 }

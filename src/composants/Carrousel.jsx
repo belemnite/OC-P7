@@ -25,6 +25,7 @@ export default function Carrousel({cover, gallery}) {
         <img className='prev' onClick={prevImg} src={flèche_arrière} alt="flèche arrière" />
         <img className='main-picture' src={indexImg === -1 ? cover: gallery[indexImg]} alt="aperçu du logement" />
         <img className='next' onClick={nextImg} src={flèche_avant} alt="flèche avant" />
+        <p className="image-number">{indexImg}/{gallery.length}</p>
     </div>
   )
 }

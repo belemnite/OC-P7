@@ -278,6 +278,27 @@ footer p {
   right: 0;
 }
 
+.image-number{
+  position: absolute;
+left: 48.95%;
+right: 49.11%;
+top: 86.19%;
+bottom: 6.01%;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 142.6%;
+/* or 26px */
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+color: #FFFFFF;
+}
+
 .Fiche .Titre {
   width: 635px;
   height: 51px;
@@ -443,6 +464,7 @@ footer p {
   width: 100%;
   height: auto;
 }
+
 #page-erreur h1{
   font-family:'Montserrat';
   font-weight: 700;
