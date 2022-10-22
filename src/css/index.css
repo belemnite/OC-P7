@@ -1,12 +1,13 @@
-*{
+* {
   font-family: 'Montserrat';
 }
+
 .logement {
   left: 0%;
   right: 0%;
   top: 0%;
   bottom: 0%;
-  margin-top:32px;
+  margin-top: 32px;
   background: #F7F7F7;
   border-radius: 25px;
 }
@@ -30,7 +31,8 @@
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 142.6%;   /* or 26px */
+  line-height: 142.6%;
+  /* or 26px */
   display: flex;
   align-items: flex-end;
 
@@ -51,7 +53,8 @@
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  line-height: 142.6%;   /* or 26px */
+  line-height: 142.6%;
+  /* or 26px */
   display: flex;
   align-items: flex-start;
 
@@ -59,7 +62,7 @@
 }
 
 main {
-  margin:5%;
+  margin: 5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -78,7 +81,7 @@ header {
 
 header .LOGO {
   position: absolute;
-  color:#FF6060;
+  color: #FF6060;
   font-weight: 520;
   font-size: 48px;
   height: 68px;
@@ -102,22 +105,23 @@ header nav {
 }
 
 nav ul {
-display: flex;
-justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 nav li {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 142.6%;   /* or 34px */
+  line-height: 142.6%;
+  /* or 34px */
   display: flex;
   align-items: flex-end;
   text-align: right;
   color: #FF6060;
 }
 
-nav li:hover{
+nav li:hover {
   text-decoration-line: underline;
 }
 
@@ -129,7 +133,8 @@ nav li:hover{
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 142.6%;   /* or 34px */
+  line-height: 142.6%;
+  /* or 34px */
   display: flex;
   align-items: flex-end;
   text-align: right;
@@ -144,7 +149,8 @@ nav li:hover{
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 142.6%;  /* or 34px */
+  line-height: 142.6%;
+  /* or 34px */
   display: flex;
   align-items: flex-end;
   text-align: right;
@@ -163,12 +169,12 @@ nav li:hover{
 
 .Section1 img {
   height: 223px;
-  width:100%;
+  width: 100%;
   border-radius: 25px;
   mix-blend-mode: darken;
   opacity: 0.7;
   overflow: hidden;
-  display:block;
+  display: block;
 }
 
 h1 {
@@ -184,7 +190,7 @@ h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
-  opacity: 1;  
+  opacity: 1;
   color: #FFFFFF;
 }
 
@@ -195,14 +201,14 @@ footer {
   margin-left: 0px;
   display: flex;
   flex-wrap: wrap;
-  align-items:center;
+  align-items: center;
   text-align: center;
   justify-content: space-around;
   background: #000000;
   color: #FFFFFF;
 }
 
-footer .LOGO{
+footer .LOGO {
   position: absolute;
   top: 31%;
 }
@@ -217,37 +223,45 @@ footer p {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 142.6%;  /* or 34px */
+  line-height: 142.6%;
+  /* or 34px */
 }
-.Fiche body{
+
+.Fiche body {
   position: absolute;
   width: 1240px;
   left: 100px;
   top: 128px;
 }
-.Fiche .Section1 img{
+
+.Fiche .Section1 img {
   width: 100%;
   height: 415px;
   display: flex;
   justify-content: center;
 }
-.Fiche .carrousel{
+
+.Fiche .carrousel {
   position: relative;
   width: 100%;
   height: 415px;
   border-radius: 15px;
   overflow: hidden;
 }
-.carrousel img{
-max-width: 100%;
-object-fit: cover;
+
+.carrousel img {
+  max-width: 100%;
+  object-fit: cover;
 }
-.carrousel .main-picture{
+
+.carrousel .main-picture {
   display: block;
   width: 100%;
   height: 100%;
 }
-.prev, .next{
+
+.prev,
+.next {
   position: absolute;
   top: 50%;
   background-color: rgba(0, 0, 0, 0.2);
@@ -255,20 +269,24 @@ object-fit: cover;
   height: 120px;
   cursor: pointer;
 }
-.prev{
-  left:0;
+
+.prev {
+  left: 0;
 }
-.next{
+
+.next {
   right: 0;
 }
-.Fiche .Titre{
-width: 635px;
-height: 51px;
-left: 100px;
-top: 573px;
+
+.Fiche .Titre {
+  width: 635px;
+  height: 51px;
+  top: 573px;
 }
-.Fiche .Titre h1{
-  left: 6.94%;
+
+.Fiche .Titre h1 {
+  position: relative;
+  left: 0;
   right: 48.96%;
   top: 55.96%;
   bottom: 39.06%;
@@ -276,25 +294,28 @@ top: 573px;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
-  line-height: 142.6%;   /* or 51px */
+  line-height: 142.6%;
+  /* or 51px */
   display: flex;
   align-items: flex-end;
   color: #FF6060;
 }
 
-.Fiche .Titre .Localisation{
-left: 6.94%;
-right: 80.83%;
-top: 60.94%;
-bottom: 36.52%;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 142.6%;/* identical to box height, or 26px */
-display: flex;
-align-items: flex-end;
-color: #FF6060;
-} 
+.Fiche .Titre .Localisation {
+  position: relative;
+  left: 0;
+  top: 60.94%;
+  bottom: 36.52%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  /* identical to box height, or 26px */
+  display: flex;
+  align-items: flex-end;
+  color: #FF6060;
+}
+
 /*.Fiche .Cercle-Hôte{
   position: absolute;
   border-radius: 32px;
@@ -302,102 +323,103 @@ color: #FF6060;
   top: 567px;
   background: #C4C4C4;
 }*/
-.Fiche .Hôte h3{
-position: absolute;
-width: 93px;
-height: 52px;
-left: 1170px;
-top: 560px;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 142.6%; /* or 26px */
-display: flex;
-align-items: center;
-text-align: right;
-color: #FF6060;
+.Fiche .Hôte h3 {
+  position: absolute;
+  width: 93px;
+  height: 52px;
+  left: 1100px;
+  top: 580px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  /* or 26px */
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #FF6060;
 }
 
-.Fiche .Hôte img{
-position: absolute;
-width: 64px;
-height: 64px;
-border-radius: 50%;
-left: 1273px;
-top: 567px;
+.Fiche .Hôte img {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  left: 1210px;
+  top: 590px;
 }
 
-.Fiche .Note{
+.Fiche .Note {
+  position: absolute;
   height: 36px;
-width: 196px;
-left: 1144px;
-top: 652px;
-border-radius: 0px;
-
+  width: 196px;
+  left: 1144px;
+  top: 652px;
+  color: #FF6060;
 }
 
-.Fiche .Contenu{
-position: relative;
+.Fiche .Contenu {
+  position: relative;
   width: 1240px;
-height: 101px;
-left: 100px;
-top: 670px;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
+  height: 101px;
+  left: 100px;
+  top: 670px;
+
 }
 
-.Fiche .Contenu .Mots-clés{
+.Fiche .Mots-clés {
+  position: absolute;
   height: 25px;
   width: 100%;
   left: 100px;
   top: 670px;
-  
-  }
-  
-  .Fiche .Contenu .Mots-clés .Rectangle3{
-    height: 25px;
-    width: 115px;
-    background: #FF6060;
-    color: #FFFFFF;
-    border-radius: 10px;
-  }
 
-.Fiche .Contenu .Dropdown{
+}
+
+.Fiche  .Mots-clés .Rectangle3 {
+  height: 25px;
+  width: 115px;
+  background: #FF6060;
+  color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.Fiche  .Dropdown {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
   margin-inline: 5%;
-  left:17%;
+  left: 0;
 }
 
 
-.Dropdown .acc-header{
-display:flex;
-height: 47px;
-width: 100%;
-margin-inline: 0;
-margin-bottom: 0;
-font-weight: 500;
-font-size: 24px;
-background: #FF6060;
-color:#FFFFFF;
-border-radius: 5px;
-justify-content: space-between;
-align-items: center;
-padding-left: 18px;
-cursor: pointer;
-}
-button{
-  background-color: transparent;
-  border-style: none;
-}
-.Dropdown img{
-padding-right: 18px;
+.Dropdown .acc-header {
+  position: relative;
+  display: flex;
+  height: 47px;
+  width: 100%;
+  margin-inline: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 24px;
+  background: #FF6060;
+  color: #FFFFFF;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 18px;
+  cursor: pointer;
 }
 
-.Dropdown p{
+.Dropdown img {
+  padding-right: 18px;
+}
+
+.Dropdown p {
   margin-block: 0;
+  width:100%;
   height: 184px;
   padding-left: 18px;
   padding-top: 38px;
@@ -406,12 +428,23 @@ padding-right: 18px;
   font-weight: 400;
   font-size: 24px;
   background: #F7F7F7;
-  color:#FF6060;
+  color: #FF6060;
 
 }
-.Fiche .Dropdown{
+
+.Fiche .Dropdown {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   width: 45%;
+}
+
+#page-erreur{
+  width: 100%;
+  height: auto;
+}
+#page-erreur h1{
+  font-family:'Montserrat';
+  font-weight: 700;
+  font-size: 288px;
 }
