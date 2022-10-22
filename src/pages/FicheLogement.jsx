@@ -48,7 +48,7 @@ export default function Fiche() {
         <div className='Note'>{logementEnCours.rating}</div>
         <div className='Dropdown'>
         <Accordion titre={"Description"} contenu={logementEnCours.description}/>
-        <Accordion titre={"Equipements"} contenu={logementEnCours.equipments}/>
+        <Accordion titre={"Equipements"} contenu={<ul>{logementEnCours.equipments}</ul>} />
         </div>
         </main>
         <Footer/>
