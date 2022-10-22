@@ -263,11 +263,12 @@ footer p {
 .prev,
 .next {
   position: absolute;
-  top: 50%;
+  top: 37.5%;
   background-color: rgba(0, 0, 0, 0.2);
   width: 100px;
   height: 120px;
   cursor: pointer;
+  align-items: center;
 }
 
 .prev {
@@ -284,6 +285,9 @@ left: 48.95%;
 right: 49.11%;
 top: 86.19%;
 bottom: 6.01%;
+height: 32px;
+width: 32px;
+border-radius: 50%;
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -294,24 +298,27 @@ line-height: 142.6%;
 
 display: flex;
 align-items: flex-end;
+justify-content: center;
 text-align: center;
-
+background-color: rgba(0, 0, 0, 0.2);
 color: #FFFFFF;
 }
 
 .Fiche .Titre {
-  width: 635px;
-  height: 51px;
+  position: absolute;
+  width: 60%;
+  height: 80px;
   top: 573px;
+  left:5%;
+  justify-content: flex-start;
+  text-align: left;
 }
 
 .Fiche .Titre h1 {
-  position: relative;
+  position: absolute;
   left: 0;
   right: 48.96%;
   top: 55.96%;
-  bottom: 39.06%;
-  height: 51px;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -322,11 +329,10 @@ color: #FFFFFF;
   color: #FF6060;
 }
 
-.Fiche .Titre .Localisation {
-  position: relative;
-  left: 0;
-  top: 60.94%;
-  bottom: 36.52%;
+.Fiche .Titre p {
+  position: absolute;
+  left: 5%;
+  top: 62%;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
