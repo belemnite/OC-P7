@@ -402,18 +402,27 @@ footer p {
 
 #page-erreur {
   width: 100%;
+  color: #FF6060;
 }
 
 #page-erreur h1 {
-  font-family: 'Montserrat';
   font-weight: 700;
   margin:0;
   font-size: 288px;
+  display: flex;
+  justify-content: center;
+}
+#page-erreur p{
+  display: flex;
+  justify-content: center;
 }
 
 
 @media(max-width:662px){
   nav li{
     font-size:18px;
+  }
+  #page-erreur h1{
+    font-size: 96px;
   }
 }
