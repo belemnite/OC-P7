@@ -9,7 +9,7 @@ export default function About() {
   return (
     <><Header />
     <div className='Section1'>
-      <img src={paysage2} alt="paysage_section_à_propos" srcset="" />
+      <img src={paysage2} alt="paysage_section_à_propos" />
     </div>
     <div className='Dropdown'>
       <Accordion titre={"Fiabilité"} contenu={"Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."}> </Accordion>
