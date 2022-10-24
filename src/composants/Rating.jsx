@@ -16,7 +16,7 @@ export default function Rating({note}) {
     )
     
   }
- 
+
   return (
     <div>{etoiles}</div>
   )

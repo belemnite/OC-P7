@@ -15,7 +15,7 @@ export default function Accordion({ titre, contenu }) {
                     <img src={flèche_bas} alt="flèche" />
                 }
             </div>
-            {openAcc && <p>{contenu}</p>}
+            {openAcc && <div className='acc-content'>{contenu}</div>}
         </div>
 
     )
