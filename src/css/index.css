@@ -3,13 +3,15 @@
 }
 
 .logement {
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
+  margin-inline: 5%;
   margin-top: 32px;
+  width: 100%;
   background: #F7F7F7;
   border-radius: 25px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .carte-logement {
@@ -70,39 +72,16 @@ main {
 
 header {
   margin-inline: 5%;
+  width: 100%;
   margin-block: 1%;
-  height: 68px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  left: 100px;
-  top: 40px;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header .LOGO {
-  position: absolute;
-  color: #FF6060;
-  font-weight: 520;
-  font-size: 48px;
-  height: 68px;
-  margin: 0px;
-  width: 210px;
-  left: 5.5%;
-  top: 2.5%;
-  justify-content: left;
-  align-items: flex-end;
-}
 
-header nav {
-  position: absolute;
-  left: 71.5%;
-  right: 0%;
-  top: 25%;
-  bottom: 25%;
-  height: 34px;
-  width: 25%;
-  top: 17px;
-}
+
 
 nav ul {
   display: flex;
@@ -125,46 +104,32 @@ nav li:hover {
   text-decoration-line: underline;
 }
 
-.Accueil {
-  left: 75.08%;
-  right: 13.95%;
-  top: 25%;
-  bottom: 25%;
+nav li {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 142.6%;
   /* or 34px */
-  display: flex;
-  align-items: flex-end;
-  text-align: right;
   color: #FF6060;
+  margin-left:10px;
 }
 
-.A-propos {
-  left: 90.65%;
-  right: 0%;
-  top: 25%;
-  bottom: 25%;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 142.6%;
-  /* or 34px */
-  display: flex;
-  align-items: flex-end;
-  text-align: right;
-  color: #FF6060;
+nav a{
+  text-decoration: none;
+  color:inherit;
 }
-
+nav a:hover{
+  text-decoration: underline;
+}
 
 .Section1 {
+  position: relative;
+  width:100%;
   height: 223px;
   margin-inline: 5%;
   margin-bottom: 10px;
-  top: 171px;
   border-radius: 25px;
-  background: linear-gradient(#F7F7F7, (#000000, 0.5));
+  overflow: hidden;
 }
 
 .Section1 img {
@@ -177,20 +142,21 @@ nav li:hover {
   display: block;
 }
 
-h1 {
+.Section1 h1 {
   position: absolute;
-  top: 25%;
-  bottom: 25%;
-  left: 20.5%;
-  width: 60%;
-  height: 70px;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 223px;
+  margin: 0;
+  padding-top: 7%;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
   text-align: center;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
-  opacity: 1;
   color: #FFFFFF;
 }
 
@@ -227,12 +193,6 @@ footer p {
   /* or 34px */
 }
 
-.Fiche body {
-  position: absolute;
-  width: 1240px;
-  left: 100px;
-  top: 128px;
-}
 
 .Fiche .Section1 img {
   width: 100%;
@@ -279,101 +239,83 @@ footer p {
   right: 0;
 }
 
-.image-number{
+.image-number {
   position: absolute;
-left: 48.95%;
-right: 49.11%;
-top: 86.19%;
-bottom: 6.01%;
-height: 32px;
-width: 32px;
-border-radius: 50%;
+  left: 48.95%;
+  right: 49.11%;
+  top: 86.19%;
+  bottom: 6.01%;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
 
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 142.6%;
-/* or 26px */
-
-display: flex;
-align-items: flex-end;
-justify-content: center;
-text-align: center;
-background-color: rgba(0, 0, 0, 0.2);
-color: #FFFFFF;
-}
-
-.Fiche .Titre {
-  position: absolute;
-  width: 60%;
-  height: 80px;
-  top: 573px;
-  left:5%;
-  justify-content: flex-start;
-  text-align: left;
-}
-
-.Fiche .Titre h1 {
-  position: absolute;
-  left: 0;
-  right: 48.96%;
-  top: 55.96%;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 142.6%;
-  /* or 51px */
-  display: flex;
-  align-items: flex-end;
-  color: #FF6060;
-}
-
-.Fiche .Titre p {
-  position: absolute;
-  left: 5%;
-  top: 62%;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 142.6%;
-  /* identical to box height, or 26px */
-  display: flex;
-  align-items: flex-end;
-  color: #FF6060;
-}
-
-/*.Fiche .Cercle-Hôte{
-  position: absolute;
-  border-radius: 32px;
-  left: 1273px;
-  top: 567px;
-  background: #C4C4C4;
-}*/
-.Fiche .Hôte h3 {
-  position: absolute;
-  width: 93px;
-  height: 52px;
-  left: 1100px;
-  top: 580px;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 142.6%;
   /* or 26px */
+
   display: flex;
-  align-items: center;
-  text-align: right;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #FFFFFF;
+}
+
+.Fiche .heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Fiche .Titre {
+  width: 60%;
+  height: 80px;
+}
+
+.Fiche .Titre h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 142.6%;
+  color: #FF6060;
+}
+
+.Fiche .Titre p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
+  /* identical to box height, or 26px */
+  color: #FF6060;
+}
+
+.Fiche .Hôte {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+.Fiche .Hôte .info-hote {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Fiche .Hôte h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 142.6%;
   color: #FF6060;
 }
 
 .Fiche .Hôte img {
-  position: absolute;
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  left: 1210px;
-  top: 590px;
 }
 
 .Fiche .Note {
@@ -394,31 +336,30 @@ color: #FFFFFF;
 
 }
 
-.Fiche .Mots-clés {
-  position: absolute;
-  height: 25px;
-  width: 100%;
-  left: 100px;
-  top: 670px;
-
+.Fiche .mots-cles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
-.Fiche  .Mots-clés .Rectangle3 {
-  height: 25px;
-  width: 115px;
+.Fiche .mots-cles .tag {
+  padding: 3px 10px;
   background: #FF6060;
   color: #FFFFFF;
   border-radius: 10px;
 }
 
-.Fiche  .Dropdown {
-  position: relative;
+.Fiche .Dropdown {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  margin-inline: 5%;
-  left: 0;
+  margin-top: 128px;
+  margin-bottom: 10px;
+}
+
+.Fiche .accordeon{
+  width:45%;
 }
 
 
@@ -446,7 +387,7 @@ color: #FFFFFF;
 
 .Dropdown p {
   margin-block: 0;
-  width:100%;
+  width: 100%;
   height: 184px;
   padding-left: 18px;
   padding-top: 38px;
@@ -459,20 +400,20 @@ color: #FFFFFF;
 
 }
 
-.Fiche .Dropdown {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width: 45%;
-}
-
-#page-erreur{
+#page-erreur {
   width: 100%;
-  height: auto;
 }
 
-#page-erreur h1{
-  font-family:'Montserrat';
+#page-erreur h1 {
+  font-family: 'Montserrat';
   font-weight: 700;
+  margin:0;
   font-size: 288px;
+}
+
+
+@media(max-width:662px){
+  nav li{
+    font-size:18px;
+  }
 }

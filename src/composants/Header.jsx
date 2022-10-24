@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <header>
-      <p className='LOGO'>
+      <div className='LOGO'>
         <img src={Logo} alt="Logo Kasa" />
-      </p>
+      </div>
       <nav>
         <ul>
           <li className='Accueil'><Link to={`/`}>Accueil</Link></li>
