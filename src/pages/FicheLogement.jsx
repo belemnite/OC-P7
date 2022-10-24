@@ -49,7 +49,7 @@ export default function Fiche() {
                 </div>
                 <div className='Dropdown'>
                     <Accordion titre={"Description"} contenu={logementEnCours.description} />
-                    <Accordion titre={"Equipements"} contenu={<ul>{logementEnCours.equipments.map((equipment, idx) => <Equipment key={idx} contenu={equipment}></Equipment>)} </ul>} />
+                    <Accordion titre={"Équipements"} contenu={<ul>{logementEnCours.equipments.map((equipment, idx) => <Equipment key={idx} contenu={equipment}></Equipment>)} </ul>} />
                 </div>
             </main>
             <Footer />
