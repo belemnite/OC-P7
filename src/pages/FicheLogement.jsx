@@ -37,10 +37,10 @@ export default function Fiche() {
                                 </div>)}
                         </div>
                     </div>
-                    <aside className='Hôte'>
+                    <aside className='hote'>
                         <div className="info-hote">
                         <h3>{logementEnCours.host.name}</h3>
-                        <div className='Cercle-Hôte'>
+                        <div className='cercle-hote'>
                             <img src={logementEnCours.host.picture} alt="photo hôte" />
                         </div>
                         </div>

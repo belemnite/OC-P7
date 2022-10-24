@@ -299,12 +299,14 @@ footer p {
   justify-content: right;
 }
 
-.Fiche .Hôte .info-hote {
+.Fiche .hote .info-hote {
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
+  margin-block: 20px;
 }
 
-.Fiche .Hôte h3 {
+.Fiche .hote h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -312,19 +314,15 @@ footer p {
   color: #FF6060;
 }
 
-.Fiche .Hôte img {
+.Fiche .cercle-hote img {
   width: 64px;
   height: 64px;
   border-radius: 50%;
 }
-
-.Fiche .Note {
-  position: absolute;
+.etoileRouge img{
+  width: 36px;
   height: 36px;
-  width: 196px;
-  left: 1144px;
-  top: 652px;
-  color: #FF6060;
+  gap: 5px;
 }
 
 .Fiche .Contenu {
