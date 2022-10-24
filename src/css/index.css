@@ -434,7 +434,32 @@ footer p {
 
 @media(max-width:662px){
   nav li{
-    font-size:18px;
+    font-size: 18px;
+  }
+  .Fiche .Titre h1{
+    font-size: 18px;
+  }
+  .Fiche .Titre p{
+    font-size: 14px;
+  }
+  .Fiche .hote h3{
+    font-size: 12px;
+  }
+  .Fiche .hote img{
+    width: 32px;
+    height: 32px;
+  }
+  .etoileRouge img{
+    width: 15px;
+    height: 15px;
+  }
+  .Fiche .accordeon{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  footer p{
+    font-size: 12px;
   }
   #page-erreur h1{
     font-size: 96px;
@@ -443,3 +468,4 @@ footer p {
     font-size: 18px;
   }
 }
+
