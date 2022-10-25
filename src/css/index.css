@@ -1,9 +1,13 @@
 * {
   font-family: 'Montserrat';
 }
-
+.home, .fiche, .about{
+  width: 95%;
+  padding-inline:3%;
+  display:block;
+  justify-content: center;
+}
 .logement {
-  margin-inline: 5%;
   margin-top: 32px;
   width: 100%;
   background: #F7F7F7;
@@ -64,15 +68,12 @@
 }
 
 main {
-  margin: 5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
 header {
-  margin-inline: 5%;
-  width: 100%;
   margin-block: 1%;
   display: flex;
   flex-wrap: wrap;
@@ -80,40 +81,27 @@ header {
   align-items: center;
 }
 
-
-
-
 nav ul {
   display: flex;
   justify-content: space-around;
-  padding-right: 50%;
 }
 
 nav li {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  line-height: 142.6%;
-  /* or 34px */
+  line-height: 142.6%; /* or 34px */
   display: flex;
   align-items: flex-end;
   text-align: right;
   color: #FF6060;
+  padding-left: 10px;
 }
 
 nav li:hover {
   text-decoration-line: underline;
 }
 
-nav li {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 142.6%;
-  /* or 34px */
-  color: #FF6060;
-  margin-left:10px;
-}
 
 nav a{
   text-decoration: none;
@@ -123,17 +111,16 @@ nav a:hover{
   text-decoration: underline;
 }
 
-.Section1 {
+.banner {
   position: relative;
   width:100%;
   height: 223px;
-  margin-inline: 5%;
   margin-bottom: 10px;
   border-radius: 25px;
   overflow: hidden;
 }
 
-.Section1 img {
+.banner img {
   height: 223px;
   width: 100%;
   border-radius: 25px;
@@ -143,7 +130,7 @@ nav a:hover{
   display: block;
 }
 
-.Section1 h1 {
+.banner h1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -163,9 +150,8 @@ nav a:hover{
 
 footer {
   position: relative;
-  width: 100%;
   height: 209px;
-  margin-left: 0px;
+  padding-inline: 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -175,7 +161,7 @@ footer {
   color: #FFFFFF;
 }
 
-footer .LOGO {
+footer .logo {
   position: absolute;
   top: 31%;
 }
@@ -196,14 +182,14 @@ footer p {
 }
 
 
-.Fiche .Section1 img {
+.fiche .banner img {
   width: 100%;
   height: 415px;
   display: flex;
   justify-content: center;
 }
 
-.Fiche .carrousel {
+.fiche .carrousel {
   position: relative;
   width: 100%;
   height: 415px;
@@ -266,19 +252,19 @@ footer p {
   color: #FFFFFF;
 }
 
-.Fiche .heading {
+.fiche .heading {
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.Fiche .Titre {
+.fiche .Titre {
   width: 60%;
   height: 80px;
 }
 
-.Fiche .Titre h1 {
+.fiche .Titre h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -286,7 +272,7 @@ footer p {
   color: #FF6060;
 }
 
-.Fiche .Titre p {
+.fiche .Titre p {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -295,20 +281,20 @@ footer p {
   color: #FF6060;
 }
 
-.Fiche .Hôte {
+.fiche .Hôte {
   display: flex;
   flex-direction: column;
   justify-content: right;
 }
 
-.Fiche .hote .info-hote {
+.fiche .hote .info-hote {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   margin-block: 20px;
 }
 
-.Fiche .hote h3 {
+.fiche .hote h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -316,7 +302,7 @@ footer p {
   color: #FF6060;
 }
 
-.Fiche .cercle-hote img {
+.fiche .cercle-hote img {
   width: 64px;
   height: 64px;
   border-radius: 50%;
@@ -326,7 +312,7 @@ footer p {
   height: 36px;
 }
 
-.Fiche .Contenu {
+.fiche .Contenu {
   position: relative;
   width: 1240px;
   height: 101px;
@@ -335,30 +321,33 @@ footer p {
 
 }
 
-.Fiche .mots-cles {
+.fiche .mots-cles {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
  
 }
 
-.Fiche .mots-cles .tag {
+.fiche .mots-cles .tag {
   padding: 3px 10px;
   background: #FF6060;
   color: #FFFFFF;
   border-radius: 10px;
 }
-
-.Fiche .Dropdown {
+.Dropdown{
+  padding-inline: 5%;
+}
+.fiche .Dropdown {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+  
   margin-top: 128px;
   margin-bottom: 10px;
 }
 
-.Fiche .accordeon{
+.fiche .accordeon{
   width:45%;
 }
 
@@ -399,7 +388,7 @@ footer p {
   color: #FF6060;
 }
 
-.Fiche .Dropdown .acc-content{
+.fiche .Dropdown .acc-content{
   font-size: 18px;
 }
 
@@ -409,6 +398,13 @@ footer p {
 }
 .acc-content li{
   list-style: none;
+}
+
+.about .Dropdown{
+  margin-bottom: 32px;
+}
+.about .accordeon{
+  margin-bottom: 10px;
 }
 
 #page-erreur {
@@ -443,17 +439,18 @@ footer p {
 @media(max-width:662px){
   nav li{
     font-size: 18px;
+    text-transform: uppercase;
   }
-  .Fiche .Titre h1{
+  .fiche .Titre h1{
     font-size: 18px;
   }
-  .Fiche .Titre p{
+  .fiche .Titre p{
     font-size: 14px;
   }
-  .Fiche .hote h3{
+  .fiche .hote h3{
     font-size: 12px;
   }
-  .Fiche .hote img{
+  .fiche .hote img{
     width: 32px;
     height: 32px;
   }
@@ -461,7 +458,7 @@ footer p {
     width: 15px;
     height: 15px;
   }
-  .Fiche .accordeon{
+  .fiche .accordeon{
     width: 95%;
     flex-direction: column;
     margin-bottom: 10px;

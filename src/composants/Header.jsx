@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <header>
-      <div className='LOGO'>
+      <div className='logo'>
         <img src={Logo} alt="Logo Kasa" />
       </div>
       <nav>

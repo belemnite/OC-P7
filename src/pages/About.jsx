@@ -7,8 +7,8 @@ import Accordion from '../composants/Accordion';
 
 export default function About() {
   return (
-    <><Header />
-    <div className='Section1'>
+    <div className='about'><Header />
+    <div className='banner'>
       <img src={paysage2} alt="paysage_section_à_propos" />
     </div>
     <div className='Dropdown'>
@@ -18,6 +18,6 @@ export default function About() {
       <Accordion titre={"Responsabilité"} contenu={"Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."}></Accordion>
   </div>
     <Footer/>
-    </>
+    </div>
   )
 }

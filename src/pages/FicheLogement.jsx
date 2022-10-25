@@ -22,7 +22,7 @@ export default function Fiche() {
         return (<></>)
     }
     return (
-        <div className="Fiche">
+        <div className="fiche">
             <Header />
             <main>
                 <Carrousel cover={logementEnCours.cover} gallery={logementEnCours.pictures} />

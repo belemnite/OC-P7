@@ -11,9 +11,9 @@ function Home() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="Home">
+    <div className="home">
       <Header/>
-      <div className='Section1'>
+      <div className='banner'>
         <img src={paysage} alt="paysage" />
       <h1>Chez vous, partout et ailleurs</h1>
       </div>
