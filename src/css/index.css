@@ -395,6 +395,11 @@ footer p {
   background: #F7F7F7;
   color: #FF6060;
 }
+
+.Fiche .Dropdown .acc-content{
+  font-size: 18px;
+}
+
 .acc-content ul{
   margin: 0;
   padding: 0;
