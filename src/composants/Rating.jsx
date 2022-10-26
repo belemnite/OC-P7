@@ -18,6 +18,6 @@ export default function Rating({note}) {
   }
 
   return (
-    <div>{etoiles}</div>
+    <div className='etoiles'>{etoiles}</div>
   )
 }
